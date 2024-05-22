@@ -14,7 +14,8 @@ to do...
 
 some papers and blogs
 
-
+- [On Protecting the Data Privacy of Large Language Models (LLMs): A Survey](https://arxiv.org/pdf/2403.05156)
+  - Yan, Biwei, Kun Li, Minghui Xu, Yueyan Dong, Yue Zhang, Zhaochun Ren, and Xiuzheng Cheng
 
 ## 潜在安全威胁和漏洞
 
