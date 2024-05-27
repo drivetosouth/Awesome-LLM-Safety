@@ -44,8 +44,8 @@ some papers and blogs
   - 这篇论文对针对LLM的**不同形式的攻击**做了系统性调研，将攻击方式分为越狱、提示注入、数据投毒三种方式，并介绍了外部防御（输入/输出审查）、内部防御（训练/微调时防御）两种防御措施。
 
 - [Security and Privacy Challenges of Large Language Models: A Survey](http://arxiv.org/abs/2402.00888)
-- Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu
-- 这篇论文全面调研了LLM**安全和隐私**面临的威胁和防御措施。论文阐述了LLM的漏洞、针对LLM的安全和隐私攻击、针对不同类型攻击的防御技术和对于特定的LLM应用程序的风险。
+  - Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu
+  - 这篇论文全面调研了LLM**安全和隐私**面临的威胁和防御措施。论文阐述了LLM的漏洞、针对LLM的安全和隐私攻击、针对不同类型攻击的防御技术和对于特定的LLM应用程序的风险。
 
 ## 潜在安全威胁和漏洞
 
