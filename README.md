@@ -53,15 +53,61 @@ some papers and blogs
 
 ### 训练阶段安全性问题
 
-+ `投毒攻击`
++ `数据投毒`
+  
+Data Poisoning is an adversarial attack that tries to manipulate the training dataset in order to control the prediction behavior of a trained model such that the model will label malicious examples into a desired classes (e.g., labeling spam e-mails as safe).
+
   - [Forcing Generative Models to Degenerate Ones: The Power of Data Poisoning Attacks](https://arxiv.org/abs/2312.04748)
     - Shuli Jiang, Swanand Ravindra Kadhe, Yi Zhou, Ling Cai, Nathalie Baracaldo
-    - 
+
+  - [On the exploitability of instruction tuning](https://arxiv.org/abs/2306.17194)
+    - Manli Shu, Jiongxiao Wang, Chen Zhu, Jonas Geiping, Chaowei Xiao, Tom Goldstein
+   
+  - [Learning to Poison Large Language Models During Instruction Tuning](https://arxiv.org/abs/2402.13459v1)
+    - Yao Qiang, Xiangyu Zhou, Saleh Zare Zade, Mohammad Amin Roshani, Douglas Zytko, Dongxiao Zhu
+   
+  - [Poisoning Language Models During Instruction Tuning](https://proceedings.mlr.press/v202/wan23b.html)
+    - Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein
+    - PLMR 2023
+
+  - [Data Poisoning for In-context Learning](https://arxiv.org/abs/2402.02160)
+    - Pengfei He, Han Xu, Yue Xing, Hui Liu, Makoto Yamada, Jiliang Tang
+   
+  - 
 + `后门攻击`
+
+Backdoor attacks inject maliciously constructed data into a training set so that, at test time, the trained model misclassifies inputs patched with a backdoor trigger as an adversarially-desired target class.
+  
+  - [BITE: Textual Backdoor Attacks with Iterative Trigger Injection](https://arxiv.org/abs/2205.12700)
+    - Jun Yan, Vansh Gupta, Xiang Ren
+    - ACL 2023
+ 
+  - [Prompt as Triggers for Backdoor Attack: Examining the Vulnerability in Language Models](https://arxiv.org/abs/2305.01219)
+    - Shuai Zhao, Jinming Wen, Luu Anh Tuan, Junbo Zhao, Jie Fu
+    - EMNLP 2023
+ 
+  - [Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection](https://arxiv.org/abs/2307.16888)
+    - Jun Yan, Vikas Yadav, Shiyang Li, Lichang Chen, Zheng Tang, Hai Wang, Vijay Srinivasan, Xiang Ren, Hongxia Jin
+    - NAACL 2024
+ 
+  - [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models](https://arxiv.org/abs/2305.14710)
+    - Jiashu Xu, Mingyu Derek Ma, Fei Wang, Chaowei Xiao, Muhao Chen
+    - NAACL 2024
+   
+  - [Talk Too Much: Poisoning Large Language Models under Token Limit](https://arxiv.org/abs/2404.14795)
+    - Jiaming He, Wenbo Jiang, Guanyu Hou, Wenshu Fan, Rui Zhang, Hongwei Li
+
+  - [Training-free Lexical Backdoor Attacks on Language Models](https://arxiv.org/abs/2302.04116v1)
+    - Yujin Huang, Terry Yue Zhuo, Qiongkai Xu, Han Hu, Xingliang Yuan, Chunyang Chen
+    - WWW 2023
 
 ### 推理阶段安全性问题
 
 + `提示注入`
+
+Prompt injections involve bypassing filters or manipulating the LLM using carefully crafted prompts that make the model ignore previous instructions or perform unintended actions. These vulnerabilities can lead to unintended consequences, including data leakage, unauthorized access, or other security breaches.
+
+
 
 + `幻觉和错误信息`
 
@@ -70,6 +116,10 @@ some papers and blogs
 + `模型窃取`
 
 + `隐私泄露`
+
+  -[Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/abs/2403.00871)
+    - Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal
+    - ICLR 2024
 
 ## 安全性防御措施和技术
 
