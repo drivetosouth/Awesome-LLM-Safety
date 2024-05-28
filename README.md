@@ -100,6 +100,16 @@ Backdoor attacks inject maliciously constructed data into a training set so that
   - [Training-free Lexical Backdoor Attacks on Language Models](https://arxiv.org/abs/2302.04116v1)
     - Yujin Huang, Terry Yue Zhuo, Qiongkai Xu, Han Hu, Xingliang Yuan, Chunyang Chen
     - WWW 2023
+   
+  - [Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignment](https://arxiv.org/abs/2311.09433)
+    - Haoran Wang, Kai Shu
+      
+  - [Universal Jailbreak Backdoors from Poisoned Human Feedback](https://arxiv.org/abs/2311.14455)
+    - Javier Rando, Florian Tramèr
+    - ICLR 2024
+   
+  - [Stealthy and Persistent Unalignment on Large Language Models via Backdoor Injections](https://arxiv.org/abs/2312.00027)
+    - Yuanpu Cao, Bochuan Cao, Jinghui Chen
 
 ### 推理阶段安全性问题
 
@@ -107,7 +117,29 @@ Backdoor attacks inject maliciously constructed data into a training set so that
 
 Prompt injections involve bypassing filters or manipulating the LLM using carefully crafted prompts that make the model ignore previous instructions or perform unintended actions. These vulnerabilities can lead to unintended consequences, including data leakage, unauthorized access, or other security breaches.
 
+  - [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527)
+    - Fábio Perez, Ian Ribeiro
+    - NeurIPS 2022
 
+  - ["Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models](https://arxiv.org/abs/2308.03825)
+    - Xinyue Shen, Zeyuan Chen, Michael Backes, Yun Shen, Yang Zhang
+
+  - [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
+    - Yi Liu, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, Yang Liu
+
+  - [Jailbroken: How Does LLM Safety Training Fail?](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html)
+    - Alexander Wei, Nika Haghtalab, Jacob Steinhardt
+    - NeurIPS 2023
+   
+  - [More than you’ve asked for: A comprehensive analysis of novel prompt injection threats to application-integrated large language models](https://ui.adsabs.harvard.edu/abs/2023arXiv230212173G/abstract)
+    - Greshake, Kai ; Abdelnabi, Sahar ; Mishra, Shailesh ; Endres, Christoph ; Holz, Thorsten ; Fritz, Mario
+
+  - [Safeguarding Crowdsourcing Surveys from ChatGPT with Prompt Injection](https://arxiv.org/abs/2306.08833)
+    - Chaofan Wang, Samuel Kernan Freire, Mo Zhang, Jing Wei, Jorge Goncalves, Vassilis Kostakos, Zhanna Sarsenbayeva, Christina Schneegass, Alessandro Bozzon, Evangelos Niforatos
+   
+  - [Effective Prompt Extraction from Language Models](https://arxiv.org/abs/2307.06865)
+    - Yiming Zhang, Nicholas Carlini, Daphne Ippolito
+   
 
 + `幻觉和错误信息`
 
@@ -115,17 +147,64 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
 
 + `模型窃取`
 
-+ `隐私泄露`
+Model theft attacks occur when an attacker gains access to the model’s parameters.
+
+ - [Stealing Part of a Production Language Model](https://arxiv.org/abs/2403.06634)
+   - Nicholas Carlini, Daniel Paleka, Krishnamurthy Dj Dvijotham, Thomas Steinke, Jonathan Hayase, A. Feder Cooper, Katherine Lee, Matthew Jagielski, Milad Nasr, Arthur Conmy, Eric Wallace, David Rolnick, Florian Tramèr
+
+  - [A Fast, Performant, Secure Distributed Training Framework For LLM](https://ieeexplore.ieee.org/abstract/document/10446717)
+    - Wei Huang; Yinggui Wang; Anda Cheng; Aihui Zhou; Chaofan Yu; Lei Wang
+    - IEEE 2024
+   
+  - [Matching Pairs: Attributing Fine-Tuned Models to their Pre-Trained Large Language Models](https://arxiv.org/abs/2306.09308)
+    - Myles Foley, Ambrish Rawat, Taesung Lee, Yufang Hou, Gabriele Picco, Giulio Zizzo
+
+  - [Secure Your Model: An Effective Key Prompt Protection Mechanism for Large Language Models](https://www.researchgate.net/profile/Ruixiang-Tang/publication/374555007_Secure_Your_Model_An_Effective_Key_Prompt_Protection_Mechanism_for_Large_Language_Models/links/65f8a03b286738732d5ce0d3/Secure-Your-Model-An-Effective-Key-Prompt-Protection-Mechanism-for-Large-Language-Models.pdf)
+    - Tang, Ruixiang and Chuang, Yu-Neng and Cai, Xuanting and Platforms, Meta and Du, Mengnan and Hu, Xia
+
++ `数据泄露`
+
+Data leakage occurs when an LLM accidentally reveals sensitive information, proprietary algorithms, or other confidential details through its responses. This can result in unauthorized access to sensitive data or intellectual property, privacy violations, and other security breaches.
 
   -[Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/abs/2403.00871)
     - Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal
     - ICLR 2024
 
+  - [The janus interface: How finetuning in large language models amplifies the privacy risks](https://arxiv.org/abs/2310.15469)
+    - Xiaoyi Chen, Siyuan Tang, Rui Zhu, Shijun Yan, Lei Jin, Zihao Wang, Liya Su, Zhikun Zhang, XiaoFeng Wang, Haixu Tang
+
+  - [Analyzing leakage of personally identifiable information in language models](https://ieeexplore.ieee.org/abstract/document/10179300)
+    - Nils Lukas; Ahmed Salem; Robert Sim; Shruti Tople; Lukas Wutschitz; Santiago Zanella-Béguelin
+    - IEEE 2023
+   
+  - [Beyond Memorization: Violating Privacy Via Inference with Large Language Models](https://arxiv.org/abs/2310.07298)
+    - Robin Staab, Mark Vero, Mislav Balunović, Martin Vechev
+   
+  - [Cybercrime and privacy threats of large language models](https://ieeexplore.ieee.org/abstract/document/10174273)
+    - Nir Kshetri
+
+  - [Information leakage in embedding models](https://arxiv.org/abs/2004.00053)
+    - Congzheng Song, Ananth Raghunathan
+   
+  - [Extracting training data from large language models](https://arxiv.org/abs/2012.07805)
+    - Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, Colin Raffel
+
+  - [Text revealer: Private text reconstruction via model inversion attacks against transformers](https://arxiv.org/abs/2209.10505)
+    - Ruisi Zhang, Seira Hidano, Farinaz Koushanfar
+
 ## 安全性防御措施和技术
 
 ### 数据安全
 
++ `数据预处理`
+
++ `数据检查`
+  
 ### 模型安全
+
++ `模型对齐`
+
++ `对抗性训练`
 
 ### 部署安全
 
