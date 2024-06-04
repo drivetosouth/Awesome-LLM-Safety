@@ -47,6 +47,17 @@ some papers and blogs
   - Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu
   - 这篇论文全面调研了LLM**安全和隐私**面临的威胁和防御措施。论文阐述了LLM的漏洞、针对LLM的安全和隐私攻击、针对不同类型攻击的防御技术和对于特定的LLM应用程序的风险。
 
+## 引言
+
+Claude
+- [Claude](https://www.anthropic.com/news/introducing-claude)
+- [Claude2](https://www.anthropic.com/news/claude-2)
+- [Claude3](https://www.anthropic.com/news/claude-3-family)
+
+GPTs
+- [chatGPT](https://openai.com/index/chatgpt/)
+- [GPT4](https://arxiv.org/abs/2303.08774)
+
 ## 潜在安全威胁和漏洞
 
 some papers and blogs
