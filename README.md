@@ -47,6 +47,9 @@ some papers and blogs
   - Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu
   - 这篇论文全面调研了LLM**安全和隐私**面临的威胁和防御措施。论文阐述了LLM的漏洞、针对LLM的安全和隐私攻击、针对不同类型攻击的防御技术和对于特定的LLM应用程序的风险。
 
+- [Privacy in large language models: Attacks, defenses and future directions](https://arxiv.org/abs/2310.10383)
+  - Haoran Li, Yulin Chen, Jinglong Luo, Yan Kang, Xiaojin Zhang, Qi Hu, Chunkit Chan, Yangqiu Song  
+
 ## 引言
 
 Claude
