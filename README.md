@@ -140,10 +140,6 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
 
   - [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
     - Yi Liu, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, Yang Liu
-
-  - [Jailbroken: How Does LLM Safety Training Fail?](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html)
-    - Alexander Wei, Nika Haghtalab, Jacob Steinhardt
-    - NeurIPS 2023
    
   - [More than you’ve asked for: A comprehensive analysis of novel prompt injection threats to application-integrated large language models](https://ui.adsabs.harvard.edu/abs/2023arXiv230212173G/abstract)
     - Greshake, Kai ; Abdelnabi, Sahar ; Mishra, Shailesh ; Endres, Christoph ; Holz, Thorsten ; Fritz, Mario
@@ -155,7 +151,14 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
     - Yiming Zhang, Nicholas Carlini, Daphne Ippolito
    
 
-+ `幻觉和错误信息`
++ `越狱`
+
+  - [Jailbreaking black box large language models in twenty queries](https://arxiv.org/abs/2310.08419)
+    - Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
+ 
+  - [Jailbroken: How Does LLM Safety Training Fail?](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html)
+    - Alexander Wei, Nika Haghtalab, Jacob Steinhardt
+    - NeurIPS 2023
 
 ### 部署阶段安全性问题
 
