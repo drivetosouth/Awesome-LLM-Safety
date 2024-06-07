@@ -134,12 +134,14 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
   - [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527)
     - Fábio Perez, Ian Ribeiro
     - NeurIPS 2022
+    - [summary](/summaries/Ignore%20previous%20prompt.md)
 
   - ["Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models](https://arxiv.org/abs/2308.03825)
     - Xinyue Shen, Zeyuan Chen, Michael Backes, Yun Shen, Yang Zhang
 
   - [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
     - Yi Liu, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, Yang Liu
+    - [summary](/summaries/Prompt%20Injection%20attack%20against%20LLM-integrated%20Applications.md)
    
   - [More than you’ve asked for: A comprehensive analysis of novel prompt injection threats to application-integrated large language models](https://ui.adsabs.harvard.edu/abs/2023arXiv230212173G/abstract)
     - Greshake, Kai ; Abdelnabi, Sahar ; Mishra, Shailesh ; Endres, Christoph ; Holz, Thorsten ; Fritz, Mario
@@ -149,16 +151,34 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
    
   - [Effective Prompt Extraction from Language Models](https://arxiv.org/abs/2307.06865)
     - Yiming Zhang, Nicholas Carlini, Daphne Ippolito
+
+  - [Not what you’ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection](https://arxiv.org/abs/2302.12173)
+    - Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz, Mario Fritz
    
 
 + `越狱`
 
   - [Jailbreaking black box large language models in twenty queries](https://arxiv.org/abs/2310.08419)
     - Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
+    - [summary](/summaries/Jailbreaking%20black%20box%20large%20language%20models%20in%20twenty%20queries.md)
  
   - [Jailbroken: How Does LLM Safety Training Fail?](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html)
     - Alexander Wei, Nika Haghtalab, Jacob Steinhardt
     - NeurIPS 2023
+  
+  - [A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/abs/2311.08268)
+    - Peng Ding, Jun Kuang, Dan Ma, Xuezhi Cao, Yunsen Xian, Jiajun Chen, Shujian Huang
+    - NAACL 2024
+    - [summary](/summaries/A%20Wolf%20in%20Sheep's%20Clothing.md)
+   
+  - [Low-resource languages jailbreak gpt4](https://arxiv.org/abs/2310.02446)
+    - Zheng-Xin Yong, Cristina Menghini, Stephen H. Bach
+    - NeurIPS 2024
+    - [summary](/summaries/Low-resource%20languages%20jailbreak%20gpt4.md)
+  
+  - [Scalable and transferable black-box jailbreaks for language models via persona modulation.](https://arxiv.org/abs/2311.03348)
+    - Rusheb Shah, Quentin Feuillade--Montixi, Soroush Pour, Arush Tagade, Stephen Casper, Javier Rando
+    - [summary](/summaries/Scalable%20and%20Transferable%20Black-Box%20Jailbreaks%20for%20Language%20Models%20via%20Persona%20Modulation.md)
 
 ### 部署阶段安全性问题
 

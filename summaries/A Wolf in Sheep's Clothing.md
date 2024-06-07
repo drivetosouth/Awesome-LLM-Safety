@@ -1,0 +1,1 @@
+(Ding et al., 2023) focus on subtle, hard-to-detect jailbreaking methods using nested prompts. These findings reveal a critical shortcoming in the LLMs’ content evaluation algorithms, suggesting the need for more complex, context-aware natural language processing that can discern and neutralize manipulative prompt structures.
