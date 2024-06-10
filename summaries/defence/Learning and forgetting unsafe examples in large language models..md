@@ -1,0 +1,1 @@
+Zhao et al. (2023a) study how LLMs learn and forget unsafe examples during fine-tuning, proposing a technique called ForgetFilter to filter fine-tuning data and improve safety without sacrificing performance.

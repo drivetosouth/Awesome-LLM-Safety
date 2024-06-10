@@ -86,8 +86,12 @@ Data Poisoning is an adversarial attack that tries to manipulate the training da
 
   - [Data Poisoning for In-context Learning](https://arxiv.org/abs/2402.02160)
     - Pengfei He, Han Xu, Yue Xing, Hui Liu, Makoto Yamada, Jiliang Tang
+
+  - [Fine-tuning aligned language models compromises safety, even when users do not intend to!](https://arxiv.org/abs/2310.03693)
+    - Xiangyu Qi, Yi Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson
+    - [summary](/summaries/Fine-tuning%20aligned%20language%20models%20compromises%20safety,%20even%20when%20users%20do%20not%20intend%20to!.md)
    
-  - 
+
 + `后门攻击`
 
 Backdoor attacks inject maliciously constructed data into a training set so that, at test time, the trained model misclassifies inputs patched with a backdoor trigger as an adversarially-desired target class.
@@ -155,6 +159,10 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
   - [Not what you’ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection](https://arxiv.org/abs/2302.12173)
     - Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz, Mario Fritz
    
+  - [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](https://arxiv.org/abs/2310.12815)
+    - Yupei Liu, Yuqi Jia, Runpeng Geng, Jinyuan Jia, Neil Zhenqiang Gong
+    - [summary](/summaries/Formalizing%20and%20Benchmarking%20Prompt%20Injection%20Attacks%20and%20Defenses.md)
+
 
 + `越狱`
 
@@ -209,6 +217,7 @@ Data leakage occurs when an LLM accidentally reveals sensitive information, prop
 
   - [The janus interface: How finetuning in large language models amplifies the privacy risks](https://arxiv.org/abs/2310.15469)
     - Xiaoyi Chen, Siyuan Tang, Rui Zhu, Shijun Yan, Lei Jin, Zihao Wang, Liya Su, Zhikun Zhang, XiaoFeng Wang, Haixu Tang
+    - [summary](/summaries/The%20janus%20interface.md)
 
   - [Analyzing leakage of personally identifiable information in language models](https://ieeexplore.ieee.org/abstract/document/10179300)
     - Nils Lukas; Ahmed Salem; Robert Sim; Shruti Tople; Lukas Wutschitz; Santiago Zanella-Béguelin
@@ -235,6 +244,10 @@ Data leakage occurs when an LLM accidentally reveals sensitive information, prop
 
 + `数据预处理`
 
+  - [Learning and forgetting unsafe examples in large language models.](https://arxiv.org/abs/2312.12736)
+    - Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren
+    - [summary](/summaries/Learning%20and%20forgetting%20unsafe%20examples%20in%20large%20language%20models..md)
+
 + `数据检查`
   
 ### 模型安全
@@ -256,3 +269,6 @@ Data leakage occurs when an LLM accidentally reveals sensitive information, prop
 + `评估平台`
 
 + `数据集`
+
+ - [Tensor trust: Interpretable prompt injection attacks from an online game](https://arxiv.org/abs/2311.01011)
+   - 一个提示注入攻击和防御的数据集
