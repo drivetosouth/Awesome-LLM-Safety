@@ -1,0 +1,3 @@
+External: Input/Output filtering or Guarding
+Defense against gradient-based jailbreaks
+Hu et al. (2023) propose token-level adversarial prompt detection, capitalizing on the high perplexity characteristic of adversarial prompts to identify and classify adversarial tokens within a prompt, leveraging the relationship between neighbouring tokens. As with other perplexity-based techniques, this might not be feasible for black-box LLMs where perplexity calculation cannot be done directly.

@@ -1,0 +1,1 @@
+Liu et al. (2023c) utilized this website to analyze 78 malicious prompts. These prompts were categorized into three main classes: Pretending, Attention Shifting, and Privilege Escalation, each further divided into subclasses. In total, they created 10 categories encompassing various types of harmful prompts that broke over 10 OpenAI policies.

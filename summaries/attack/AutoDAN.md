@@ -1,0 +1,3 @@
+AutoDAN (Liu et al., 2023a), an automated, interpretable, gradient-based adversarial attack method for LLMs, combines the strengths of manual jailbreak attacks and automatic adversarial at
+
+tacks. It generates readable prompts that bypass perplexity filters while maintaining high attack success rates. It formulates the attack as an optimization problem and employs a hierarchical genetic algorithm to search for effective prompts in the space initialized by handcrafted prompts. Their method operates at multiple levels - sentence and word - to ensure both diversity and finegrained optimization.

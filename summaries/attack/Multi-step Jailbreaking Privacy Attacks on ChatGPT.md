@@ -1,0 +1,1 @@
+Li et al. (2023b) collected personally identifiable information, like emails and phone numbers, to test if they could extract this data from LLMs. They crafted a multi-step jailbreaking role-playing prompting approach that a human attacker can use to break ChatGPT’s ethical constraints and extract private data. The website

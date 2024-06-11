@@ -135,6 +135,8 @@ Backdoor attacks inject maliciously constructed data into a training set so that
 
 Prompt injections involve bypassing filters or manipulating the LLM using carefully crafted prompts that make the model ignore previous instructions or perform unintended actions. These vulnerabilities can lead to unintended consequences, including data leakage, unauthorized access, or other security breaches.
 
+  - [Prompt Injection Attack (PIA)](/categories/提示注入攻击%20Prompt%20Injection%20Attack%20(PIA).md)
+
   - [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527)
     - Fábio Perez, Ian Ribeiro
     - NeurIPS 2022
@@ -166,6 +168,8 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
 
 + `越狱`
 
+  手动生成对抗性示例/自动生成对抗性示例
+
   - [Jailbreaking black box large language models in twenty queries](https://arxiv.org/abs/2310.08419)
     - Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, Eric Wong
     - [summary](/summaries/Jailbreaking%20black%20box%20large%20language%20models%20in%20twenty%20queries.md)
@@ -187,6 +191,28 @@ Prompt injections involve bypassing filters or manipulating the LLM using carefu
   - [Scalable and transferable black-box jailbreaks for language models via persona modulation.](https://arxiv.org/abs/2311.03348)
     - Rusheb Shah, Quentin Feuillade--Montixi, Soroush Pour, Arush Tagade, Stephen Casper, Javier Rando
     - [summary](/summaries/Scalable%20and%20Transferable%20Black-Box%20Jailbreaks%20for%20Language%20Models%20via%20Persona%20Modulation.md)
+
+  - [Multi-step jailbreaking privacy attacks on chatgpt.](https://arxiv.org/abs/2304.05197)
+    - Haoran Li, Dadi Guo, Wei Fan, Mingshi Xu, Jie Huang, Fanpu Meng, Yangqiu Song
+    - EMNLP 2023
+    - [summary](/summaries/attack/Multi-step%20Jailbreaking%20Privacy%20Attacks%20on%20ChatGPT.md)
+
+  - [Jailbreaking chatgpt via prompt engineering: An empirical study.](https://arxiv.org/abs/2305.13860)
+    - Yi Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, Kailong Wang, Yang Liu
+    - [summary](/summaries/attack/Jailbreaking%20ChatGPT%20via%20Prompt%20Engineering.md)
+
+  - [MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/abs/2307.08715)
+    - Gelei Deng, Yi Liu, Yuekang Li, Kailong Wang, Ying Zhang, Zefeng Li, Haoyu Wang, Tianwei Zhang, Yang Liu
+    - [summary](/summaries/attack/MasterKey.md)
+
+  - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)
+    - Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J. Zico Kolter, Matt Fredrikson
+    - [summary](/summaries/attack/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.md)
+
+  - [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/abs/2310.04451)
+    - Xiaogeng Liu, Nan Xu, Muhao Chen, Chaowei Xiao
+    - ICLR 2024
+    - [summary](/summaries/attack/AutoDAN.md)
 
 ### 部署阶段安全性问题
 
@@ -254,11 +280,37 @@ Data leakage occurs when an LLM accidentally reveals sensitive information, prop
 
 + `模型对齐`
 
+  - [Llama 2: Open foundation and fine-tuned chat models.](https://arxiv.org/abs/2307.09288)
+    - Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others
+
+  - [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
+    - Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others
+
 + `对抗性训练`
 
 ### 部署安全
 
 ### 推理安全
+
+ - [SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks](https://arxiv.org/abs/2310.03684)
+   - Alexander Robey, Eric Wong, Hamed Hassani, George J. Pappas
+   - [summary](/summaries/defence/SmoothLLM.md)
+
+  - [Token-Level Adversarial Prompt Detection Based on Perplexity Measures and Contextual Information](https://arxiv.org/abs/2311.11509)
+    - Zhengmian Hu, Gang Wu, Saayan Mitra, Ruiyi Zhang, Tong Sun, Heng Huang, Viswanathan Swaminathan
+    - [summary](/summaries/defence/Token-Level%20Adversarial%20Prompt%20Detection%20Based%20on%20Perplexity%20Measures%20and%20Contextual%20Information.md)
+
+  - [Robust Safety Classifier for Large Language Models: Adversarial Prompt Shield](https://arxiv.org/abs/2311.00172)
+    - Jinhwa Kim, Ali Derakhshan, Ian G. Harris
+    - [summary](/summaries/defence/Robust%20Safety%20Classifier%20for%20Large%20Language%20Models.md)
+
+  - [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674)
+    - Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao, Michael Tontchev, Qing Hu, Brian Fuller, Davide Testuggine, Madian Khabsa
+    - [summary](/summaries/defence/Llama%20Guard.md)
+
+  - [LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked](https://arxiv.org/abs/2308.07308)
+    - Mansi Phute, Alec Helbling, Matthew Hull, ShengYun Peng, Sebastian Szyller, Cory Cornelius, Duen Horng Chau
+    - [summary](/summaries/defence/LLM%20Self%20Defense.md)
 
 ## 安全评估方法
 
