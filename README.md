@@ -83,6 +83,7 @@ Data Poisoning is an adversarial attack that tries to manipulate the training da
   - [Poisoning Language Models During Instruction Tuning](https://proceedings.mlr.press/v202/wan23b.html)
     - Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein
     - PLMR 2023
+    - [summary](/summaries/attack/Poisoning%20Language%20Models%20During%20Instruction%20Tuning.md)
 
   - [Data Poisoning for In-context Learning](https://arxiv.org/abs/2402.02160)
     - Pengfei He, Han Xu, Yue Xing, Hui Liu, Makoto Yamada, Jiliang Tang
@@ -95,6 +96,8 @@ Data Poisoning is an adversarial attack that tries to manipulate the training da
 + `后门攻击`
 
 Backdoor attacks inject maliciously constructed data into a training set so that, at test time, the trained model misclassifies inputs patched with a backdoor trigger as an adversarially-desired target class.
+
+Backdoor attacks pose a serious threat to the security of LLMs. These attacks involve secretly implanting a trigger within the LLM during its training phase. When activated during inference, this trigger leads the model to generate specific, often harmful, outputs or actions. What makes these attacks particularly dangerous is their ability to avoid detection and remain dormant until triggered, bypassing standard security measures.
   
   - [BITE: Textual Backdoor Attacks with Iterative Trigger Injection](https://arxiv.org/abs/2205.12700)
     - Jun Yan, Vansh Gupta, Xiang Ren
@@ -103,6 +106,7 @@ Backdoor attacks inject maliciously constructed data into a training set so that
   - [Prompt as Triggers for Backdoor Attack: Examining the Vulnerability in Language Models](https://arxiv.org/abs/2305.01219)
     - Shuai Zhao, Jinming Wen, Luu Anh Tuan, Junbo Zhao, Jie Fu
     - EMNLP 2023
+    - [summary](/summaries/attack/Prompt%20as%20Triggers%20for%20Backdoor%20Attack.md)
  
   - [Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection](https://arxiv.org/abs/2307.16888)
     - Jun Yan, Vikas Yadav, Shiyang Li, Lichang Chen, Zheng Tang, Hai Wang, Vijay Srinivasan, Xiang Ren, Hongxia Jin
@@ -134,6 +138,8 @@ Backdoor attacks inject maliciously constructed data into a training set so that
 + `提示注入`
 
 Prompt injections involve bypassing filters or manipulating the LLM using carefully crafted prompts that make the model ignore previous instructions or perform unintended actions. These vulnerabilities can lead to unintended consequences, including data leakage, unauthorized access, or other security breaches.
+
+直接注入/间接注入
 
   - [Prompt Injection Attack (PIA)](/categories/提示注入攻击%20Prompt%20Injection%20Attack%20(PIA).md)
 
@@ -233,6 +239,14 @@ Model theft attacks occur when an attacker gains access to the model’s paramet
   - [Secure Your Model: An Effective Key Prompt Protection Mechanism for Large Language Models](https://www.researchgate.net/profile/Ruixiang-Tang/publication/374555007_Secure_Your_Model_An_Effective_Key_Prompt_Protection_Mechanism_for_Large_Language_Models/links/65f8a03b286738732d5ce0d3/Secure-Your-Model-An-Effective-Key-Prompt-Protection-Mechanism-for-Large-Language-Models.pdf)
     - Tang, Ruixiang and Chuang, Yu-Neng and Cai, Xuanting and Platforms, Meta and Du, Mengnan and Hu, Xia
 
+  - [Mondrian: Prompt Abstraction Attack Against Large Language Models for Cheaper API Pricing](https://arxiv.org/abs/2308.03558)
+    - Wai Man Si, Michael Backes, Yang Zhang
+    - [summary](/summaries/attack/Mondrian.md)
+
+  - [Model leeching: An extraction attack targeting llms](https://arxiv.org/abs/2309.10544)
+    - Lewis Birch, William Hackett, Stefan Trawicki, Neeraj Suri, Peter Garraghan
+    - [summary](/summaries/attack/Model%20leeching.md)
+
 + `数据泄露`
 
 Data leakage occurs when an LLM accidentally reveals sensitive information, proprietary algorithms, or other confidential details through its responses. This can result in unauthorized access to sensitive data or intellectual property, privacy violations, and other security breaches.
@@ -273,6 +287,11 @@ Data leakage occurs when an LLM accidentally reveals sensitive information, prop
   - [Learning and forgetting unsafe examples in large language models.](https://arxiv.org/abs/2312.12736)
     - Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren
     - [summary](/summaries/Learning%20and%20forgetting%20unsafe%20examples%20in%20large%20language%20models..md)
+
+  - [Neural attention distillation: Erasing backdoor triggers from deep neural networks.](https://arxiv.org/abs/2101.05930)
+    - Yige Li, Xixiang Lyu, Nodens Koren, Lingjuan Lyu, Bo Li, Xingjun Ma
+    - ICLR 2021
+    - 知识蒸馏
 
 + `数据检查`
   
