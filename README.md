@@ -238,7 +238,7 @@ case:
 
 6. **"Deepinception: Hypnotize large language model to be jailbreaker"**  
 
-    *Li, X. et al.* arXiv 2023. [[Paper](https://example.com)] [[Source](https://github.com/tmlr-group/DeepInception)]
+    *Li, X. et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2311.03191)] [[Source](https://github.com/tmlr-group/DeepInception)]
 
 7. **"Autodan: Automatic and interpretable adversarial attacks on large language models"**  
 
@@ -249,3 +249,265 @@ case:
     *Zou, A. et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2307.15043)]
 
 ### Defenses
+
+#### Data Security
+
+##### Data Preprocessing
+
+1. **"Deduplicating training data makes language models better"**
+   
+    *Lee, Katherine, et al.* ACL 2022. [[Paper](https://aclanthology.org/2022.acl-long.577/)] [[Source](https://github.com/google-research/deduplicate-text-datasets)]
+
+2. **"Deduplicating training data mitigates privacy risks in language models"**  
+
+   *Kandpal, Nikhil, Eric Wallace, and Colin Raffel.* ICML 2022. [[Paper](https://arxiv.org/abs/2202.06539)]
+
+3. **"The refinedweb dataset for falcon llm: outperforming curated corpora with web data, and web data only"**  
+
+   *Penedo, Guilherme, et al.* NeurIPS 2023. [[Paper](https://arxiv.org/abs/2305.18674)]
+
+4. **"Privacy- and Utility-Preserving NLP with Anonymized data: A case study of Pseudonymization"**  
+
+   *Yermilov, Oleksandr, Vipul Raheja, and Artem Chernodub.* NeurIPS 2023. [[Paper](https://aclanthology.org/2023.trustnlp-1.20/)] [[Source](https://github.com/olexandryermilov/privacy-preserving-nlp)]
+
+5. **"Large language models are advanced anonymizers"**
+   *Staab, Robin, et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2402.13846)] [Source](https://github.com/robin-staab/anonymizer)
+
+6. **"Beyond memorization: Violating privacy via inference with large language models"**
+   
+   *Staab, Robin, et al.* ICLR 2024. [[Paper]((https://arxiv.org/abs/2310.07298))] [Source]([XX](https://github.com/eth-sri/llmprivacy))
+
+##### Differential Privacy
+
+1. **"Calibrating noise to sensitivity in private data analysis"**
+   
+   *Dwork, Cynthia, et al.* TCC 2006. [[Paper]((https://link.springer.com/chapter/10.1007/11681878_14))]
+
+2. **"Deep learning with differential privacy"**
+   
+   *Abadi, Martin, et al.* CCS 2016. [[Paper](https://dl.acm.org/doi/proceedings/10.1145/2976749)]
+
+3. **"Dp-fp: Differentially private forward propagation for large models"**
+   
+   *Jian Du, Haitao Mi* arXiv 2021. [[Paper](https://arxiv.org/abs/2112.14430)]
+
+4. **"Submix: Practical private prediction for large-scale language models"**
+   
+   *Ginart, Antonio, et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00971)]
+
+5.  **"Just fine-tune twice: Selective differential privacy for large language models"**
+   
+   *Shi, Weiyan, et al.* EMNLP 2022. [[Paper](https://aclanthology.org/2022.emnlp-main.425/)]
+
+6.  **"Ew-tune: A framework for privately fine-tuning large language models with differential privacy"**
+   
+   *Behnia, Rouzbeh, et al.* IEEE ICDMW 2022. [[Paper](https://arxiv.org/abs/2210.15042)]
+
+7.  **"Privacy-preserving in-context learning for large language models."**
+   
+   *Wu, Tong, et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2305.01639)]
+
+8.  **"Dpzero: dimension-independent and differentially private zeroth-order optimization"**
+   
+   *Zhang, Liang, et al.* NeurIPS. [[Paper](https://arxiv.org/abs/2310.09639)]
+
+9.  **"De-amplifying bias from differential privacy in language model fine-tuning"**
+   
+   *Srivastava, Sanjari, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2402.04489)]
+
+##### Federated Learning
+
+1. **"Integration of Large Language Models and Federated Learning"**
+   
+   *Chen, Chaochao, et al.* Patterns 2024. [[Paper](https://arxiv.org/abs/2307.08925)]
+
+2. **"The future of large language model pre-training is federated"**
+   
+   *Sani, Lorenzo, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2405.10853)]
+
+3. **"Openfedllm: Training large language models on decentralized private data via federated learning"**
+   
+   *Ye, Rui, et al.* KDD 2024. [[Paper](https://dl.acm.org/doi/10.1145/3637528.3671582)] [[Source](https://github.com/rui-ye/OpenFedLLM)]
+
+4.  **"Shieldgemma: Generative ai content moderation based on gemma"**
+   
+   *Zeng, Wenjun, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2407.21772)]
+
+5.  **"Differentially private low-rank adaptation of large language model using federated learning"**
+   
+   *Liu, Xiao-Yang, et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2312.17493)]
+
+##### Unlearning
+
+1.  **"Large language model unlearning"**
+   
+   *Yao, Yuanshun, Xiaojun Xu, and Yang Liu.* NeurIPS 2024. [[Paper](https://openreview.net/forum?id=8Dy42ThoNe)] [Source](https://github.com/kevinyaobytedance/llm_unlearn)
+
+
+2.  **"Who’s harry potter? approximate unlearning in llms"**
+   
+   *Eldan, Ronen, and Mark Russinovich.* arXiv 2023. [[Paper](https://arxiv.org/abs/2310.02238)]
+
+3.  **"Unlearn what you want to forget: Efficient unlearning for llms"**
+   
+   *Chen, Jiaao, and Diyi Yang.* EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.738/)] [Source](https://github.com/SALT-NLP/Efficient_Unlearning)
+
+4.  **"Every language counts: Learn and unlearn in multilingual llms"**
+   
+   *Lu, Taiming, and Philipp Koehn.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.13748)] [Source](https://github.com/TaiMingLu/learn-unlearn)
+
+5.  **"Ununlearning: Unlearning is not sufficient for content regulation in advanced generative ai"**
+   
+   *Shumailov, Ilia, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2407.00106)]
+
+#### Model Security
+
+##### Red-Teaming
+
+1.  **"Realtoxicityprompts: Evaluating neural toxic degeneration in language models"**
+   
+   *Gehman, Samuel, et al.* EMNLP 2020. [[Paper](https://aclanthology.org/2020.findings-emnlp.301/)]
+
+2.  **"Bot-adversarial dialogue for safe conversational agents"**
+   
+   *Xu, Jing, et al.* NAACL 2021. [[Paper](https://aclanthology.org/2021.naacl-main.235/)]
+
+3.  **"Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned"**
+   
+   *Ganguli, Deep, et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2209.07858)] [Source](https://github.com/anthropics/hh-rlhf)
+
+4.  **"Red teaming language models with language models"**
+   
+   *Perez, Ethan, et al.* EMNLP 2022. [[Paper](https://aclanthology.org/2022.emnlp-main.225/)]
+
+5.  **"Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts"**
+   
+   *Yu, Jiahao, et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2309.10253)] [Source](https://github.com/sherdencooper/GPTFuzz)
+
+6.  **"Persistent anti-muslim bias in large language models"**
+   
+   *Abid, Abubakar, Maheen Farooqi, and James Zou.* AAAI 2021. [[Paper](https://arxiv.org/abs/2101.05783)]
+
+7.  **"Bias and fairness in large language models: A survey"**
+   
+   *Gallegos, Isabel O., et al.* CL 2024. [[Paper](https://aclanthology.org/2024.cl-3.8/)]
+
+8.  **"Attack prompt generation for red teaming and defending large language models"**
+   
+   *Deng, Boyi, et al.* EMNLP 2023. [[Paper]([XX](https://aclanthology.org/2023.findings-emnlp.143/))]
+
+9.  **"MART: Improving LLM safety with multi-round automatic red-teaming"**
+   
+   *Ge, Suyu, et al.* NAACL 2024. [[Paper](https://aclanthology.org/2024.naacl-long.107/)]
+
+10. **"Automated progressive red teaming"**
+   
+   *Jiang, Bojian, et al.* COLING 2025. [[Paper](https://aclanthology.org/2025.coling-main.260/)]
+
+11. **"Unveiling safety vulnerabilities of large language models"**
+   
+   *Kour, George, et al.* GEM 2023. [[Paper]((https://aclanthology.org/2023.gem-1.10/))]
+
+12. **"Socialstigmaqa: A benchmark to uncover stigma amplification in generative language models"**
+   
+   *Nagireddy, Manish, et al.* AAAI 2024. [[Paper](https://arxiv.org/abs/2312.07492)]
+
+13. **"Truthfulqa: Measuring how models mimic human falsehoods"**
+   
+   *Lin, Stephanie, Jacob Hilton, and Owain Evans.* ACL 2022. [[Paper](https://aclanthology.org/2022.acl-long.229/)] [Source](https://github.com/sylinrl/TruthfulQA)
+
+14. **"Curiosity-driven red-teaming for large language models"**
+   
+   *Hong, Zhang-Wei, et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2402.19464)] [Source](https://github.com/Improbable-AI/curiosity_redteam)
+
+##### Alignment
+
+###### SFT
+
+1. **"Self-instruct: Aligning language models with self-generated instructions"**
+   
+   *Wang, Yizhong, et al.* ACL 2023. [[Paper](https://aclanthology.org/2023.acl-long.754/)] [Source](https://github.com/yizhongw/self-instruct)
+
+2.  **"Enhancing chat language models by scaling high-quality instructional conversations"**
+   
+   *Ding, Ning, et al.* EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.183/)]
+
+3.  **"Baize: An open-source chat model with parameter-efficient tuning on selfchat data"**
+   
+   *Xu, Canwen, et al.* EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.385/)] [Source](https://github.com/project-baize/baize-chatbot)
+
+4.  **"Magpie: Alignment data synthesis from scratch by prompting aligned llms with nothing"**
+   
+   *Xu, Zhangchen, et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2406.08464)] [Source](https://github.com/magpie-align/magpie)
+
+5.  **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+6.  **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+7.  **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+8.  **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+9.  **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+10. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+11. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+12. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+13. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+14. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+15. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+16. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+17. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+18. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+19. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+20. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+21. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
+
+22. **"XX"**
+   
+   *XX* XX. [[Paper](XX)] [Source](XX)
