@@ -514,75 +514,83 @@ case:
 
 ##### Text Watermarking
 
-1. **"XX"**
+1. **"A watermark for large language models"**
+   
+   *Kirchenbauer, John, et al.* ICMAL 2023. [[Paper](https://arxiv.org/abs/2301.10226)] [Source](https://github.com/jwkirchenbauer/lm-watermarking)
+
+2. **"Semstamp: A semantic watermark with paraphrastic robustness for text generation"**
+   
+   *Hou, Abe Bohan, et al.* NAACL 2024. [[Paper](https://aclanthology.org/2024.naacl-long.226/)]
+
+3. **"Double-i watermark: Protecting model copyright for llm fine-tuning"**
+   
+   *Li, Shen, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2402.14883)]
+
+4. **"Learning to watermark llm-generated text via reinforcement learning"**
+   
+   *Xu, Xiaojun, Yuanshun Yao, and Yang Liu.* arXiv 2024. [[Paper](https://arxiv.org/abs/2403.10553)] [Source](https://github.com/xiaojunxu/learning-to-watermark-llm)
+
+##### Model Encryption
+
+1. **"Towards Encrypted Large Language Models with FHE"**
+   
+   *Jordan Frery* [[Paper](https://huggingface.co/blog/encrypted-llm)]
+
+2. **"MPCFORMER: FAST, PERFORMANT AND PRIVATE TRANSFORMER INFERENCE WITH MPC"**
+   
+   *Li, Dacheng, et al.* ICLR 2023. [[Paper](https://arxiv.org/abs/2211.01452)] [Source](https://github.com/DachengLi1/MPCFormer)
+
+##### Access Control
+
+1. **"Role-based access control"**
+   
+   *RS Sandhu* Advances in computers. Vol. 46. Elsevier. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0065245808602065)]
+
+2. **"Guide to attribute based access control (abac) definition and considerations (draft)"**
+   
+   *Hu, Vincent C., et al.* NIST special publication. [[Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cab698a5b0949aa7acd0858b55352c5df0a2c2fb)]
+
+3. **"An efficient fine grained access control scheme based on attributes for enterprise class applications."**
+   
+   *Santanu Chatterjee, et al.* ICSPCT 2014. [[Paper]((https://ieeexplore.ieee.org/document/6884907))]
+
+#### Operation Security
+
+##### Input and Output Safeguards
+
+1.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-2. **"XX"**
+2.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-1. **"XX"**
+6.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-2. **"XX"**
+7.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-1. **"XX"**
+8.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-2. **"XX"**
+9.  **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-1. **"XX"**
+10. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-2. **"XX"**
+11. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-1. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-2. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-1. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-2. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-1. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-2. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-1. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-2. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-1. **"XX"**
-   
-   *XX* XX. [[Paper](XX)] [Source](XX)
-
-2. **"XX"**
+12. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
