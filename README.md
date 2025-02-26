@@ -440,74 +440,149 @@ case:
    
    *Xu, Zhangchen, et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2406.08464)] [Source](https://github.com/magpie-align/magpie)
 
-5.  **"XX"**
+###### RLHF
+
+1.  **"Training language models to follow instructions with human feedback"**
+   
+   *Ouyang, Long, et al.* NeurIPS 2022. [[Paper](https://arxiv.org/abs/2203.02155)]
+
+2.  **"Training a helpful and harmless assistant with reinforcement learning from human feedback"**
+   
+   *Bai, Yuntao, et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2204.05862)] [Source](https://github.com/anthropics/hh-rlhf)
+
+3.  **"Llama 2: Open foundation and fine-tuned chat models"**
+   
+   *Touvron, Hugo, et al.* arXiv 2023. [[Paper]((https://arxiv.org/abs/2307.09288))] [Source](https://github.com/meta-llama/llama)
+
+4.  **"Safe rlhf: Safe reinforcement learning from human feedback"**
+   
+   *Dai, Josef, et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2310.12773)] [Source](https://github.com/PKU-Alignment/safe-rlhf)
+
+5.  **"Direct preference optimization: Your language model is secretly a reward model"**
+   
+   *Rafailov, Rafael, et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2305.18290)] [Source](https://github.com/eric-mitchell/direct-preference-optimization)
+
+6.  **"Smaug: Fixing failure modes of preference optimisation with dpo-positive"**
+   
+   *Pal, Arka, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2402.13228)] [Source](https://github.com/abacusai/smaug)
+
+7.  **"KTO: Model alignment as prospect theoretic optimization"**
+   
+   *Ethayarajh, Kawin, et al.* ICML 2024. [[Paper](https://arxiv.org/abs/2402.01306)] [Source](https://github.com/ContextualAI/HALOs)
+
+8.  **"A general theoretical paradigm to understand learning from human preferences"**
+   
+   *Azar, Mohammad Gheshlaghi, et al.* ICAIS 2024. [[Paper](https://arxiv.org/abs/2310.12036)]
+
+9.  **"Simpo: Simple preference optimization with a reference-free reward"**
+   
+   *Meng, Yu, Mengzhou Xia, and Danqi Chen.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2405.14734)] [Source](https://github.com/princeton-nlp/SimPO)
+
+10. **"Constitutional ai: Harmlessness from ai feedback"**
+   
+   *Bai, Yuntao, et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08073)]
+
+11. **"RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback"**
+   
+   *Lee, Harrison, et al.* ICML 2024. [[Paper](https://arxiv.org/abs/2309.00267)]
+
+12. **"Self-rewarding language models"**
+   
+   *Yuan, Weizhe, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.10020)]
+
+13. **"Raft: Reward ranked finetuning for generative foundation model alignment"**
+   
+   *Dong, Hanze, et al.* TMLR. [[Paper](https://arxiv.org/abs/2304.06767)]
+
+14. **"Preference ranking optimization for human alignment"**
+   
+   *Song, Feifan, et al.* AAAI 2024. [[Paper](https://arxiv.org/abs/2306.17492)]
+
+15. **"Slic-hf: Sequence likelihood calibration with human feedback"**
+   
+   *Zhao, Yao, et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2305.10425)] 
+
+16. **"Self-play finetuning converts weak language models to strong language models"**
+   
+   *Chen, Zixiang, et al.* ICML 2024. [[Paper](https://arxiv.org/abs/2401.01335)] [Source](https://github.com/uclaml/SPIN)
+
+17. **"RRHF: Rank responses to align language models with human feedback"**
+   
+   *Yuan, Zheng, et al.* NeurIPS 2023. [[Paper](https://arxiv.org/abs/2304.05302)] [Source](https://github.com/GanjinZero/RRHF)
+
+#### Deployment Security
+
+##### Text Watermarking
+
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-6.  **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-7.  **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-8.  **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-9.  **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-10. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-11. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-12. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-13. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-14. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-15. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-16. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-17. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-18. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-19. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-20. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-21. **"XX"**
+1. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
 
-22. **"XX"**
+2. **"XX"**
    
    *XX* XX. [[Paper](XX)] [Source](XX)
+
