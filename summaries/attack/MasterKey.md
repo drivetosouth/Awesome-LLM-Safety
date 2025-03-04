@@ -1,1 +1,0 @@
-Deng et al. (2023) propose the “MASTERKEY framework”, which uses time-based characteristics inherent to the generative process to reverseengineer the defense strategies behind mainstream LLM chatbot services. They automatically generate jailbreak prompts against well-protected LLMs by fine-tuning another LLM with the jailbreak prompts.

@@ -1,1 +1,0 @@
-Helbling et al. (2023) propose a similar approach and suggest an output filtering method involving a secondary LLM to assess the malicious nature of responses, facing challenges in language compatibility and operational costs.

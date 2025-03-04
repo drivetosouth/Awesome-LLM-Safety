@@ -1,3 +1,0 @@
-External: Input/Output filtering or Guarding
-Defense against gradient-based jailbreaks
-Robey et al. (2023) introduce SmoothLLM, which leverages the vulnerability of adversarial attacks to character-level perturbations, adopting a scatter-gather approach for prompt processing. This method aims to nullify adversarial content by averaging out the final response based on the aggregated responses produced by the model for the perturbed input prompts.

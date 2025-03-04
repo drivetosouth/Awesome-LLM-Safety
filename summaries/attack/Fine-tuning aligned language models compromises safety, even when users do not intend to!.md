@@ -1,1 +1,0 @@
-Qi et al. (2023b) investigate safety risks in fine-tuning aligned LLMs, finding that even benign datasets can compromise safety. Backdoor attacks are shown to effectively bypass safety measures, emphasizing the need for improved post-training protections.

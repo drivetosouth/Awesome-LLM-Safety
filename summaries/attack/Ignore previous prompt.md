@@ -1,1 +1,0 @@
-Perez and Ribeiro (2022) introduce the PromptInject framework for goal-hijacking attacks, revealing vulnerability to prompt misalignment and offering insights into inhibiting measures such as stop sequences and postprocessing model results.

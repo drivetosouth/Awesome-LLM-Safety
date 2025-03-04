@@ -1,1 +1,0 @@
-Shah et al. (2023b) examine attacks leveraging the persona or style emulation capabilities of LLMs, introducing a new dimension to the attack strategies.

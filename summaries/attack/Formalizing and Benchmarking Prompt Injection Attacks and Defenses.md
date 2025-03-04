@@ -1,1 +1,0 @@
-Comprehensive studies such as (Liu et al., 2023e) emphasize the importance of understanding and mitigating the risks posed by prompt injection attacks. These works highlight sophisticated methodologies like ‘HouYi’ (Liu et al., 2023e) and underscore the urgent need for more robust security measures.

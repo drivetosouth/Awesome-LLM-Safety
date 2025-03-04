@@ -1,1 +1,0 @@
-Inan et al. (2023) introduce Llama Guard, a safeguard model leveraging Llama2-7b Touvron et al. (2023) for input-output protection in LLMs. It employs taxonomy-based task classification for customizing responses through few-shot prompting or finetuning.
