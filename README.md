@@ -613,3 +613,121 @@
 3. **"Parameter-efficient fine-tuning of large-scale pre-trained language models"**  
 
    *Ding, N. et al.* Nature Machine Intelligence 2023. [[Paper](https://www.nature.com/articles/s42256-023-00626-4)]
+
+### Societal Impact and Ethical Considerations
+
+#### Technological Misuse
+
+1. **"Large language model lateral spear phishing: A comparative study in large-scale organizational settings"**  
+
+   *Bethany, Mazal, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.09727)]
+
+2. **"Analysis and prevention of ai-based phishing email attacks"**  
+
+   *Chibuike Samuel Eze and Lior Shamir.* Electronics 2024. [[Paper](https://arxiv.org/abs/2405.05435)]
+
+3. **"All the news that’s fit to fabricate: Ai-generated text as a tool of media misinformation"**  
+
+   *Kreps, Sarah, R. Miles McCain, and Miles Brundage.* Journal of experimental political science 2022. [[Paper](https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/abs/all-the-news-thats-fit-to-fabricate-aigenerated-text-as-a-tool-of-media-misinformation/40F27F0661B839FA47375F538C19FA59)]
+
+4. **"Fake news in sheep’s clothing: Robust fake news detection against llm-empowered style attacks"**  
+
+   *Wu, Jiaying and Guo, Jiafeng and Hooi, Bryan* KDD 2024. [[Paper]((https://arxiv.org/abs/2310.10830))] [[Source](https://github.com/jiayingwu19/SheepDog)]
+
+5. **""You Gotta be a Doctor, Lin": An Investigation of Name-Based Bias of Large Language Models in Employment Recommendations"**  
+
+   *Nghiem, Huy, et al.* EMNLP 2024. [[Paper](https://arxiv.org/abs/2406.12232)]
+
+6. **"Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution"**  
+
+   *Plaza-del-Arco, Flor Miriam, et al.* ACL 2024. [[Paper](https://arxiv.org/abs/2403.03121)]
+
+#### Privacy Risks
+
+1. **"Beyond memorization: Violating privacy via inference with large language models"**  
+
+   *Staab, Robin, et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2310.07298)]
+
+2. **"Quantifying association capabilities of large language models and its implications on privacy leakage"**  
+
+   *Shao, Hanyin, et al.* EACL 2024 Findings. [[Paper](https://arxiv.org/abs/2305.12707)]
+
+3. **"DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models"**  
+
+   *Wang, Boxin, et al.* NeurIPS 2023. [[Paper](https://arxiv.org/abs/2306.11698)] [[Source](https://github.com/AI-secure/DecodingTrust)]
+
+#### Copyright Issues
+
+1. **"Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4"**  
+
+   *Chang, Kent K., et al.* EMNLP 2023. [[Paper](https://arxiv.org/abs/2305.00118)] [[Source](https://github.com/bamman-group/gpt4-books)]
+
+2. **"Beyond fair use: Legal risk evaluation for training llms on copyrighted text"**  
+
+   *Rahman, Noorjahan, and Eduardo Santacana.* ICML Workshop on Generative AI and Law. 2023. [[Paper](https://blog.genlaw.org/CameraReady/57.pdf)]
+
+3. **"A Survey on LLM-Generated Text Detection: Necessity, Methods, and Future Directions"**  
+
+   *Wu, Junchao, et al.* CL 2025. [[Paper](https://arxiv.org/abs/2310.14724)] [[Source](https://github.com/NLP2CT/LLM-generated-Text-Detection)]
+
+4. **"Humanizing machine-generated content: Evading ai-text detection through adversarial attack"**  
+
+   *Zhou, Ying, Ben He, and Le Sun.* LREC-COLING 2024. [[Paper](https://aclanthology.org/2024.lrec-main.739/)]
+
+#### Overreliance
+
+1. **"Multi-Layer Ranking with Large Language Models for News Source Recommendation"**  
+
+   *Zhang, Wenjia, et al.* SIGIR 2024. [[Paper](https://arxiv.org/abs/2406.11745)]
+
+2. **"Answering real-world clinical questions using large language model based systems"**  
+
+   *Low, Yen Sia, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2407.00541)]
+
+3. **"To trust or not to trust? an assessment of trust in ai-based systems: Concerns, ethics and contexts"**  
+
+   *Omrani, Nessrine, et al.* Technological Forecasting and Social Change 181 (2022). [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0040162522002888)]
+
+4. **"Trust in artificial intelligence: A global study"**  
+
+   *Gillespie, Nicole, et al.* The University of Queensland and KPMG Australia 10 (2023). [[Paper](https://www.aiunplugged.io/wp-content/uploads/2023/10/Trust-in-Artificial-Intelligence.pdf)]
+
+5. **"Impact of artificial intelligence on human loss in decision making, laziness and safety in education"**  
+
+   *Ahmad, Sayed Fayaz, et al.* Humanities and Social Sciences Communications 10.1 (2023). [[Paper](https://www.nature.com/articles/s41599-023-01787-8)]
+
+#### Employment and Automation
+
+1. **"Towards a benchmark for causal business process reasoning with llm"**  
+
+   *Fournier, Fabiana, Lior Limonad, and Inna Skarbovsky.* International Conference on Business Process Management 2024. [[Paper](https://arxiv.org/abs/2406.05506)]
+
+2. **"Econagent: large language model-empowered agents for simulating macroeconomic activities"**  
+
+   *Li, Nian, et al.* ACL 2024. [[Paper](https://arxiv.org/abs/2310.10436)]
+
+3. **"The fine line between automation and augmentation in website usability evaluation"**  
+
+   *Esposito, Andrea, Giuseppe Desolda, and Rosa Lanzilotti.* Scientific Reports 2024. [[Paper](https://www.nature.com/articles/s41598-024-59616-0)]
+
+4. **"The blended future of automation and AI: Examining some long-term societal and ethical impact features"**  
+
+   *Khogali, Hisham O., and Samir Mekid.* Technology in Society 2023. [[Paper](https://www.sciencedirect.com/science/article/pii/S0160791X23000374)]
+
+#### Inequity Issues
+
+1. **"The rising costs of training frontier AI models"**  
+
+   *Cottier, Ben, et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2405.21015)]
+
+2. **"Bridging the digital divide: the impact of technological innovation on income inequality and human interactions"**  
+
+   *Xiao, Anran, et al.* Humanities and Social Sciences Communications 2024. [[Paper](https://www.nature.com/articles/s41599-024-03307-8)]
+
+3. **"The impact of generative artificial intelligence on socioeconomic inequalities and policy making"**  
+
+   *Capraro, Valerio, et al.* PNAS nexus 2024. [[Paper](https://academic.oup.com/pnasnexus/article/3/6/pgae191/7689236)]
+
+4. **"AI and the Future of Government: Unexpected Effects and Critical Challenges"**  
+
+   *Peixoto, Tiago C., Otaviano Canuto, and Luke Jordan.* Policy Center For The New South (2024). [[Paper](https://www.cmacrodev.com/ai-and-the-future-of-government-unexpected-effects-and-critical-challenges/)]
