@@ -1,6 +1,47 @@
 # Awesome LLM Safety Papers :
 
+This repository contains list of papers according to "Mitigating Security Risks in Large Language Models: A Full Lifecycle Perspective".
+
 ## Table of Contents
+
+* [Table of Contents](#table-of-contents)
+* [Papers](#papers)
+    * [Attacks](#attacks)
+        * [Training Phase](#training-phase)
+            * [Data Poisoning](#data-poisoning)
+            * [Backdoor Attacks](#backdoor-attacks)
+            * [Model Stealing](#model-stealing)
+            * [Privacy Leaking](#privacy-leaking)
+        * [Operation Phase](#operation-phase)
+            * [Prompt Injection](#prompt-injection)
+            * [Jailbreak](#jailbreak)
+    * [Defenses](#defenses)
+        * [Data Security](#data-security)
+            * [Data Preprocessing](#data-preprocessing)
+            * [Differential Privacy](#differential-privacy)
+            * [Federated Learning](#federated-learning)
+            * [Unlearning](#unlearning)
+        * [Model Security](#model-security)
+            * [Red-Teaming](#red-teaming)
+            * [Alignment](#alignment)
+                * [SFT](#sft)
+                * [RLHF](#rlhf)
+        * [Deployment Security](#deployment-security)
+            * [Text Watermarking](#text-watermarking)
+            * [Model Encryption](#model-encryption)
+            * [Access Control](#access-control)
+        * [Operation Security](#operation-security)
+            * [Input and Output Safeguards](#input-and-output-safeguards)
+            * [System Prompts](#system-prompts)
+            * [Continuous Monitoring and Maintenance](#continuous-monitoring-and-maintenance)
+    * [Societal Impact and Ethical Considerations](#societal-impact-and-ethical-considerations)
+        * [Technological Misuse](#technological-misuse)
+        * [Privacy Risks](#privacy-risks)
+        * [Copyright Issues](#copyright-issues)
+        * [Overreliance](#overreliance)
+        * [Employment and Automation](#employment-and-automation)
+        * [Inequity Issues](#inequity-issues)
+
 
 ## Papers
 
