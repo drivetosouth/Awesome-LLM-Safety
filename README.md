@@ -6,6 +6,10 @@ This repository contains list of papers according to "Mitigating Security Risks 
 
 With the rapid advancement of Large Language Models (LLMs), increasing complexity and widespread deployment of LLMs have exposed them to numerous security threats, necessitating a thorough examination of potential risks and associated mitigation methods. While existing studies focus on specific security aspects, a structured analysis integrating security considerations throughout the LLM lifecycle remains lacking. To address this gap, we propose a lifecycle-based perspective that systematically identifies security threats at each stage, connects them to appropriate defense mechanisms, and examines their broader societal and ethical impacts. Specifically, we first systematically analyze potential security threats across the LLM lifecycle, from training and deployment to operation phases. Building upon this analysis, we propose a security framework that aligns defensive strategies with identified threats at each lifecycle stage, encompassing data protection, model integrity, deployment security, and operational robustness. Furthermore, we investigate how these security challenges contribute to societal and ethical concerns, including privacy risks and potential misuse. Our analysis reveals the intricate relationships between technical vulnerabilities and their societal implications, suggesting directions for future research in LLM security.
 
+<div align=center>
+    <img src="./figures/intro.png" style="zoom:60%"/>
+</div>
+
 ## Table of Contents
 
 * [Introduction](#introduction)
